@@ -24,26 +24,29 @@ function BinarySearch(Item,Arr){
             bottom=half+1 //move the bottom to one more then the half
         }
     }
-    console.log(found)
+    // console.log(found)
     if(found){
-        console.log(`Item found in position ${half}`)
+        // console.log(`Item found in position ${half}`)
         return (`Item found in position ${half}`)
     }
     else{
-        console.log(`Item not found`)
+        // console.log(`Item not found`)
         return (`Item not found`)
     }
     
 }
-test1=[1,2,3,5,6,7,9,10,12] 
-BinarySearch(3,test1)
-console.log('-------------------')
-test2=[9,8,7,6,2,1]
-BinarySearch(7,test2)
-console.log('-------------------')
-test3=['a','b','c','d','e','f','g','h'] 
-BinarySearch('g',test3)
-console.log('-------------------')
-test4=['a','b','c','d','e','f','g','h'] 
-BinarySearch('p',test4)
-console.log('-------------------')
+module.exports={
+    BinarySearch
+}
+// test1=[1,2,3,5,6,7,9,10,12] 
+// BinarySearch(3,test1)
+// console.log('-------------------')
+// test2=[9,8,7,6,2,1]
+// BinarySearch(7,test2)
+// console.log('-------------------')
+// test3=['a','b','c','d','e','f','g','h'] 
+// BinarySearch('g',test3)
+// console.log('-------------------')
+// test4=['a','b','c','d','e','f','g','h'] 
+// BinarySearch('p',test4)
+// console.log('-------------------')

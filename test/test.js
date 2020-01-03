@@ -1,8 +1,13 @@
 var assert = require('assert');
-describe('Array', function() {
-  describe('#indexOf()', function() {
-    it('should return -1 when the value is not present', function() {
-      assert.equal([1, 2, 3].indexOf(4), -1);
+let { BinarySearch } = require('../BinarySearch')
+describe('Binary Search', function() {
+  describe("Item isn't in the array", function() {
+    it("show a message if the item isn't in the array", function() {
+        let input = BinarySearch([1, 2, 3],4)
+        let expect = 'Item not found'
+
+        assert.equal(input, expect);
+
     });
   });
 });
