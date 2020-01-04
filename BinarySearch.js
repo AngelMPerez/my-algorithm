@@ -4,7 +4,7 @@
 
 */ 
 
-function BinarySearch(Item,Arr){
+function BinarySearch(Arr,Item){
     
     let found = false //indicate if the item was found
     let bottom = 0 //floor of the array
@@ -27,7 +27,7 @@ function BinarySearch(Item,Arr){
     // console.log(found)
     if(found){
         // console.log(`Item found in position ${half}`)
-        return (`Item found in position ${half}`)
+        return (`Item found`/* in position ${half}*/)
     }
     else{
         // console.log(`Item not found`)
@@ -38,9 +38,7 @@ function BinarySearch(Item,Arr){
 module.exports={
     BinarySearch
 }
-// test1=[1,2,3,5,6,7,9,10,12] 
-// BinarySearch(3,test1)
-// console.log('-------------------')
+
 // test2=[9,8,7,6,2,1]
 // BinarySearch(7,test2)
 // console.log('-------------------')
