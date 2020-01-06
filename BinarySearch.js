@@ -27,7 +27,7 @@ function BinarySearch(Arr,Item){
     // console.log(found)
     if(found){
         // console.log(`Item found in position ${half}`)
-        return (`Item found`/* in position ${half}*/)
+        return (`Item found in position ${half}`)
     }
     else{
         // console.log(`Item not found`)

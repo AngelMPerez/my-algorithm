@@ -15,7 +15,7 @@ describe('Binary Search', function() {
         describe("2- Item is in the array", function() {
             it("Show a message if the item is in the array", function() {
                 let input = BinarySearch([1, 2, 3, 5, 6, 7, 9, 10, 12] ,3)
-                let expect = `Item found`
+                let expect = `Item found in position 2`
 
                 assert.equal(input, expect);
             });
@@ -35,7 +35,7 @@ describe('Binary Search', function() {
         describe("2- Item is in the array", function(){
             it("Show a message if the item is in the array", function(){
                 let input = BinarySearch(['a','b','c','d','e','f','g','h'],'g')
-                let expect = 'Item found'
+                let expect = 'Item found in position 6'
 
                 assert.equal(input, expect)
             })
