@@ -42,9 +42,3 @@ module.exports={
 // test2=[9,8,7,6,2,1]
 // BinarySearch(7,test2)
 // console.log('-------------------')
-// test3=['a','b','c','d','e','f','g','h'] 
-// BinarySearch('g',test3)
-// console.log('-------------------')
-// test4=['a','b','c','d','e','f','g','h'] 
-// BinarySearch('p',test4)
-// console.log('-------------------')
